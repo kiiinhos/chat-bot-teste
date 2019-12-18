@@ -1,32 +1,32 @@
 {"intents": [
-        {"tag": "greeting",
-         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
-         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+        {"tag": "racionais",
+         "patterns": ["Eae", "Como você está?", "Tem alguem ai ?", "Olá", "Bom Dia", "Salve quebrada"],
+         "responses": ["Até jack tem quem passe o pano", "Esse Brow ai é cheio de querer ser ", "Negro Drama, entre o sucesso e a lama "],
          "context_set": ""
         },
         {"tag": "goodbye",
-         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
-         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "patterns": ["Boa noite", "Noite", "Tchau", "Estou indo embora", "Tenha um Bom dia"],
+         "responses": ["Vai embora não parsa ", "Michelly com Y", "Some da minha Vida "],
          "context_set": ""
         },
-        {"tag": "age",
-         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
-         "responses": ["I am 18 years old!", "18 years young!"],
+        {"tag": "idade",
+         "patterns": ["Quantos anos você tem?", "Qual sua idade", "what is your age", "how old are you", "age?"],
+         "responses": ["Nasci ontem, mentira tenho 18 anos parsa", "18 anos meu Consagrado"],
          "context_set": ""
         },
-        {"tag": "name",
-         "patterns": ["what is your name", "what should I call you", "whats your name?"],
-         "responses": ["You can call me Tim.", "I'm Tim!", "I'm Tim aka Tech With Tim."],
+        {"tag": "nome",
+         "patterns": ["Qual seu nome ?", "Como devo te chamar ?", "Qual o nome da Michelly?"],
+         "responses": ["Pode me chamar de Michellão", "Meu nome é Michelly, com Y", "Oi, eu sou a Michelly com Y ta ?"],
          "context_set": ""
         },
         {"tag": "shop",
-         "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "could i get something to eat"],
-         "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"],
+         "patterns": ["Eu gostaria de fazer compras ", "Qual o role ?", "O que você me recomenda ?", "could i get something to eat"],
+         "responses": ["Hoje é dia de ir na casa da Prima do Obede", "Vamos dar um role "],
          "context_set": ""
         },
-        {"tag": "hours",
-         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
-         "responses": ["We are open 7am-4pm Monday-Friday!"],
+        {"tag": "horas",
+         "patterns": ["Que horas são ?", "Você tem horas ?","To sem relogio"],
+         "responses": ["Hoje é dia 18-12 são 11:10 e a Prima do obede só me liga"],
          "context_set": ""
         }
    ]
